@@ -14,7 +14,12 @@ public class UploadingFile {
 		driver.manage().window().maximize();
 		WebElement ele = driver.findElement(By.xpath("//input[@id='photo']"));
 		ele.sendKeys("C:\\Users\\udhai\\OneDrive\\Documents\\Document.docx");
+
                  ele.click();
+
+		ele.txt();
+
+
 		
 		
 		
